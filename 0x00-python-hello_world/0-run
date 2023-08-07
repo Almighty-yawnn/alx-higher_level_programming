@@ -1,5 +1,4 @@
-#!/usr/bin/python3
-
+#!/bin/bash
 # Check if the $PYFILE environment variable is set
 if [[ -z "${PYFILE}" ]]; then
   echo "Error: Environment variable PYFILE is not set."
