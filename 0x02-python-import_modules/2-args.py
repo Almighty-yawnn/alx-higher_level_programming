@@ -12,6 +12,6 @@ def pr_args():
     else:
         print(f"{num_args} arguments:")
     for i in range(num_args):
-        print(f"{i + 1}: {argv2[i]}.")
+        print(f"{i + 1}: {argv2[i]}")
 if __name__ == "__main__":
     pr_args()
