@@ -1,1 +1,1 @@
-This is the beginning of high level programmging, <smiley_face> 
+This is the beginning of high level programming, <smiley_face> 
