@@ -1,9 +1,7 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
 """
-Created on Mon May 25 14:04:30 2020
-
-@author: Robinson Montes
+2-rectangle.py
 """
 
 
@@ -84,3 +82,23 @@ class Rectangle:
             raise ValueError("width must be >= 0")
         else:
             self.__width = value
+
+    def area(self):
+        """
+        Calculate the area of the rectangle
+
+        Returns:
+            The area of the rectangle
+        """
+        return self.__width * self.__height
+
+    def perimeter(self):
+        """
+        Calculate the perimeter of the rectangle
+
+        Returns:
+            The perimeter of the rectangle
+        """
+        if self.__width == 0 or self.__height == 0:
+            return 0
+        return 2 * (self.__width + self.__height)
